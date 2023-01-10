@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.AllContainer{
+    background-color: tomato;
+    overflow: hidden;
+}
+.Pithaghor{
+    width: 750px;
+    background-color: lightseagreen;
+    margin: 30px auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 70px;
+}
+.Start{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    background-color: green;
+    padding: 15px 10px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 15px 15px 25px black;
+}
+.SetImg{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.jm{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+form{
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+   
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+fieldset{
+    padding: 15px;
+    margin: 10px 0;
+}
+
+input{
+    margin-top: 10px;
+    padding: 3px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    font-size: 18px;
+}
+textarea{
+    resize: none;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.uf{
+    margin-left: 10px 2px;
+    font-size: 16px;
+    width: 250px;
+    border:2px solid black;
+    transition: width 0.4s;
+}
+.uf:focus{
+    width: 450px;
+    border: none;
+    padding: 10px;
+}
+select{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px
+}
+.btn{
+    text-align: center;
+    width: 120px;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.reset{
+    background-color: red;
+}
+.submit{
+    background-color: green;
+}
+.cp{
+    padding: 2px 5px;
+    margin-bottom: 5px;
+    background-color: gray;
+    color: whitesmoke;
+    text-align: center;
+}
